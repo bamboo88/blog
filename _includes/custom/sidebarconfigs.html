@@ -10,6 +10,9 @@
 {% elsif page.sidebar == "mydoc_sidebar" %}
 {% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
 
+{% elsif page.sidebar == "python_sidebar" %}
+{% assign sidebar = site.data.sidebars.python_sidebar.entries %}
+
 {% else %}
 {% assign sidebar = site.data.sidebars.home_sidebar.entries %}
 {% endif %}
@@ -30,4 +33,8 @@ sidebar configuration for print files
 
 {% if site.product == "product2" %}
 {% assign sidebar_pdf = site.data.sidebars.product2_sidebar.entries %}
+{% endif %}
+
+{% if site.product == "python" %}
+{% assign sidebar_pdf = site.data.sidebars.python_sidebar.entries %}
 {% endif %}

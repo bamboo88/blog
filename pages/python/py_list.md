@@ -6,7 +6,7 @@ sidebar: python_sidebar
 permalink: python_introduction.html
 simple_map: true
 map_name: usermap
-box_number: 2
+box_number: 3
 folder: python
 ---
 
