@@ -3,7 +3,7 @@ repository: bamboo88/blog
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: The blog of bamboo
 # this appears on the top navigation bar next to the home button
 
 site_title: Jekyll theme for documentation
@@ -31,7 +31,7 @@ exclude:
 
 feedback_subject_line: Jekyll documentation theme
 
-feedback_email: tomjohnson1492@gmail.com
+feedback_email: iplay8787@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
