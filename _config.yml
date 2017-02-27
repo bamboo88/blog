@@ -29,7 +29,7 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: Bamboo Blog
 
 feedback_email: iplay8787@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
