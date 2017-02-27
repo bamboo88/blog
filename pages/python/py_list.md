@@ -1,9 +1,9 @@
 ---
-title: Sample 2 Topic
+title: Python
 keywords: sample
 summary: "This is just a sample topic..."
-sidebar: product2_sidebar
-permalink: p2_sample2.html
+sidebar: python_sidebar
+permalink: python_introduction.html
 simple_map: true
 map_name: usermap
 box_number: 2
