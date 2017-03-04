@@ -32,7 +32,7 @@ entries:
     folderitems:
 
     - title: List
-      url: /p2_sample1.html
+      url: /py_list.html
       output: web
 
     - title: Tuple
