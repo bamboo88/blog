@@ -9,18 +9,18 @@ folder: python
 
 #### 官方文档：
 
-##### https://docs.python.org/2.7/tutorial/datastructures.html
+#### https://docs.python.org/2.7/tutorial/datastructures.html
 
-##### https://docs.python.org/3.5/tutorial/datastructures.html
+#### https://docs.python.org/3.5/tutorial/datastructures.html
 
 列表非常适合利用顺序和位置定位某一元素（元素的顺序或内容经常发生改变时）。
 
 ### 列表常见操作：
 
-1、 增加(单个元素、多个元素、列表): append(),extend(),insert(),+ 加号
-2、 删除(指定位置、指定元素)
-3、 修改(排序、去重复(顺序问题)、某个元素)
-4、 查找()
+1. 增加(单个元素、多个元素、列表): append(),extend(),insert(),+ 加号
+2. 删除(指定位置、指定元素)
+3. 修改(排序、去重复(顺序问题)、某个元素)
+4. 查找()
 
 ### 列表操作实例
 一、使用方括号[]或list()创建空列表
