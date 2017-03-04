@@ -12,7 +12,7 @@ folder: python
 #### https://docs.python.org/2.7/tutorial/datastructures.html
 #### https://docs.python.org/3.5/tutorial/datastructures.html
 
-__ 列表非常适合利用顺序和位置定位某一元素（元素的顺序或内容经常发生改变时）
+_ 列表非常适合利用顺序和位置定位某一元素（元素的顺序或内容经常发生改变时）
 
 ### 列表常见操作：
 
