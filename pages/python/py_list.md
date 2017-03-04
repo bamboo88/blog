@@ -7,9 +7,9 @@ permalink: py_list.html
 folder: python
 ---
 
-##### 官方文档：
-######　https://docs.python.org/2.7/tutorial/datastructures.html
-###### https://docs.python.org/3.5/tutorial/datastructures.html
+#### 官方文档：
+#####　https://docs.python.org/2.7/tutorial/datastructures.html
+##### https://docs.python.org/3.5/tutorial/datastructures.html
 
 列表非常适合利用顺序和位置定位某一元素（元素的顺序或内容经常发生改变时）。
 
