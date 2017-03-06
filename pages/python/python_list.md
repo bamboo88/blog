@@ -3,7 +3,7 @@ title: python
 keywords: sample
 summary: "Python List"
 sidebar: python_sidebar
-permalink: py_list.html
+permalink: python_list.html
 folder: python
 ---
 

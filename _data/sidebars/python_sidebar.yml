@@ -32,22 +32,26 @@ entries:
     folderitems:
 
     - title: List
-      url: /py_list.html
+      url: /python_list.html
       output: web
 
     - title: Tuple
-      url: /p2_sample2.html
+      url: /python_tuple.html
       output: web
 
     - title: Dictionary
-      url: /p2_sample3.html
+      url: /python_dic.html
       output: web
 
     - title: Set
-      url: /p2_sample4.html
+      url: /python_set.html
       output: web
 
-    - title: Sample 5
-      url: /p2_sample5.html
+    - title: Python Features
+    output: web
+    folderitems:
+
+    - title: self
+      url: /python_self.html
       output: web
 
