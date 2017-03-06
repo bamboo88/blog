@@ -1,16 +1,16 @@
 ---
 title: python
 keywords: sample
-summary: "Python self"
+summary: "Python Self"
 sidebar: python_sidebar
 permalink: python_self.html
 folder: python
 ---
 
-### python Ö® self Àí½â£º
-#### self²ÎÊıÖ»´æÔÚÓÚpythonÀàµÄ·½·¨ÖĞ£¬¶ÀÁ¢º¯Êı²»±ØÊ¹ÓÃ¹ı
-#### self²»ÊÇpythonÖĞµÄ¹Ø¼ü´Ê£¬Äã¿ÉÒÔ¶¨ÒåÆäËüÃû×Ö¶¼,µ«ÊÇÔ¼¶¨³ÉË×¶¼Ê¹ÓÃself
+### python ä¹‹ self ç†è§£ï¼š
+#### selfå‚æ•°åªå­˜åœ¨äºpythonç±»çš„æ–¹æ³•ä¸­ï¼Œç‹¬ç«‹å‡½æ•°ä¸å¿…ä½¿ç”¨è¿‡
+#### selfä¸æ˜¯pythonä¸­çš„å…³é”®è¯ï¼Œä½ å¯ä»¥å®šä¹‰å…¶å®ƒåå­—éƒ½,ä½†æ˜¯çº¦å®šæˆä¿—éƒ½ä½¿ç”¨self
 
-#### selfÖ¸µÄÊÇÀàÊµÀı¶ÔÏó±¾Éí(×¢Òâ£º²»ÊÇÀà±¾Éí)¡£
+#### selfæŒ‡çš„æ˜¯ç±»å®ä¾‹å¯¹è±¡æœ¬èº«(æ³¨æ„ï¼šä¸æ˜¯ç±»æœ¬èº«)ã€‚
 
 {% include links.html %}
