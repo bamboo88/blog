@@ -47,7 +47,7 @@ entries:
       url: /python_set.html
       output: web
 
-    - title: Python Features
+  - title: Python Features
     output: web
     folderitems:
 
