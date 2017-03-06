@@ -12,3 +12,5 @@ folder: python
 #### self不是python中的关键词，你可以定义其它名字都,但是约定成俗都使用self
 
 #### self指的是类实例对象本身(注意：不是类本身)。
+
+{% include links.html %}
