@@ -8,7 +8,9 @@ folder: python
 ---
 
 ## 单例模式
+
 ## 应用场景
+
 1.  Windows的Task Manager（任务管理器）就是典型的单例模式
 2.  Windows的Recycle Bin（回收站）一直维护着一个实例
 3.  网站的计数器
@@ -20,12 +22,14 @@ folder: python
 9.  Django 的HttpRequest 和 HttpResponse 也是单例模式？？？
 
 ## 应用场景总结
+
 1. 资源共享的情况下，公共的配置文件、日志记录等
 2. 控制资源的情况下，方便资源之间的通信，线程池、连接池、文件系统等
 
 
 
 ## Python 创建单例模式的2中方法
+
 1.使用模块（最简单）
 python的模块是天然的单例模式，模块在第一次导入时，会生成.pyc文件，当第二次导入时会直接加载.pyc文件，而不会再次执行模块代码。
 <pre><code>class SingletonTest(object):
@@ -124,6 +128,6 @@ if __name__ == '__main__':
 </code></pre>
 
 日志记录信息如下：
-2017-03-08 18:55:10 INFO test
-2017-03-08 18:55:10 ERROR test
-2017-03-08 18:55:10 DEBUG test
+* 2017-03-08 18:55:10 INFO test
+* 2017-03-08 18:55:10 ERROR test
+* 2017-03-08 18:55:10 DEBUG test
