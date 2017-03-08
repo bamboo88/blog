@@ -1,3 +1,12 @@
+---
+title: classMethod
+keywords: sample
+summary: "Python Class Method"
+sidebar: python_sidebar
+permalink: python_class_method.html
+folder: python
+---
+
 ### python类中普通方法、静态方法、类方法的区别
 #### 类是一组具有相同属性和相同操作的对象的集合。
 ##### common method
