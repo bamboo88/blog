@@ -27,7 +27,7 @@ folder: python
 
 ## Python 创建单例模式的2中方法
 
-1. 使用模块（最简单）
+1.使用模块（最简单）
 python的模块是天然的单例模式，模块在第一次导入时，会生成.pyc文件，当第二次导入时会直接加载.pyc文件，而不会再次执行模块代码。
 <pre><code>class SingletonTest(object):
     def doNothing(self):
@@ -39,7 +39,7 @@ singletontest = SingletonTest()</code></pre>
 
 singletontest.doNothing()
 </code></pre>
-2. 使用__new__方法创建
+2.使用__new__方法创建
 __new__()在__init__()之前被调用，用于创建实例对象
 <pre><code>class SingletonTest(object):
     __instance = None
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 <pre><code>
 singleton show
 True</code></pre>
-3. 使用装饰器实现单例模式
+3.使用装饰器实现单例模式
 <pre><code>def singletonTest(cls, *args, **kw):
     instances = {}
     def _singleton():
@@ -86,8 +86,8 @@ if __name__ == '__main__':
 True
 42044440 42044440 42044440
 </code></pre>
-4. 使用元类创建单例模式
-` ...... `
+4.使用元类创建单例模式
+    ...... 
 
 ## Python 日志记录单例示例
 
