@@ -7,7 +7,8 @@ permalink: python_pattern_singleton.html
 folder: python
 ---
 
-## 单例模式
+
+### 单例模式
 
 ## 应用场景
 
@@ -25,8 +26,6 @@ folder: python
 
 1. 资源共享的情况下，公共的配置文件、日志记录等
 2. 控制资源的情况下，方便资源之间的通信，线程池、连接池、文件系统等
-
-
 
 ## Python 创建单例模式的2中方法
 
