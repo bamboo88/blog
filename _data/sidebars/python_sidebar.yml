@@ -54,4 +54,8 @@ entries:
     - title: self
       url: /python_self.html
       output: web
+      
+     - title: class_method
+      url: /python_class_method.html
+      output: web
 
