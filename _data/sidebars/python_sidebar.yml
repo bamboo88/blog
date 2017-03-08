@@ -55,7 +55,10 @@ entries:
       url: /python_self.html
       output: web
       
-    - title: class_method
+    - title: ClassMethod
       url: /python_class_method.html
+      output: web
+    - title: Singleton
+      url: /python_pattern_singleton.html
       output: web
 
