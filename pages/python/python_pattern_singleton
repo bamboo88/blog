@@ -7,9 +7,7 @@ permalink: python_pattern_singleton.html
 folder: python
 ---
 
-
 ### 单例模式
-
 ## 应用场景
 
 1.  Windows的Task Manager（任务管理器）就是典型的单例模式
