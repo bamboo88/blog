@@ -38,8 +38,3 @@ SelfTest.printself(bamboo)</code></pre>
 __main__.SelfTest 代表类本身
 &lt;__main__.SelfTest instance at 0x00000000026EB308 &gt;
 __main__.SelfTest</code><pre>
-
-
-
-
-{% include links.html %}
