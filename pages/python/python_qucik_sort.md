@@ -7,6 +7,8 @@ permalink: python_quick_sort.html
 folder: python
 ---
 
+
+
 ### 快速排序算法
 快速排序使用分治法（Divide and conquer）策略来把一个串行（list）分为两个字串行（sub-lists）
 #### 算法步骤：
@@ -15,10 +17,11 @@ folder: python
 3. 递归的（recursive）把小于基准元素的子数列和大于基准元素的子列排序。
 
 #### 代码实现
-<pre><code>#-*-coding:utf-8-*-
+<pre><code>
+#-*-coding:utf-8-*-
 def QuickSort(arr,firstIndex,lastIndex):
     print arr
-    if firstIndex<lastIndex:
+    if firstIndex < lastIndex:
         divIndex=Partition(arr,firstIndex,lastIndex)
         QuickSort(arr,firstIndex,divIndex)
         QuickSort(arr,divIndex+1,lastIndex)
@@ -35,6 +38,7 @@ def Partition(arr,firstIndex,lastIndex):
     return i
 
 arr=[1,4,2,3]
-QuickSort(arr,0,len(arr)-1)</code></pre>
+QuickSort(arr,0,len(arr)-1)
+</code></pre>
 
 {% include links.html %}
