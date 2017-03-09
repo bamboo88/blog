@@ -7,8 +7,6 @@ permalink: python_quick_sort.html
 folder: python
 ---
 
-
-
 ### 快速排序算法
 快速排序使用分治法（Divide and conquer）策略来把一个串行（list）分为两个字串行（sub-lists）
 #### 算法步骤：
