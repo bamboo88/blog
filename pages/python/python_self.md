@@ -34,7 +34,7 @@ bamboo = SelfTest()
 bamboo.printself()
 SelfTest.printself(bamboo)</code></pre>
 运行结果：
-<pre><code>&lt;__main__.SelfTest instance at 0x00000000022DB308&gt; 代表类实例对象
+<pre><code>&lt;__main__.SelfTest instance at 0x00000000022DB308 &gt; 代表类实例对象
 __main__.SelfTest 代表类本身
 &lt;__main__.SelfTest instance at 0x00000000026EB308 &gt;
 __main__.SelfTest</code><pre>
