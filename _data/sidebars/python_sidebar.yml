@@ -51,7 +51,7 @@ entries:
     output: web
     folderitems:
 
-    - title: self
+    - title: ClassMethodSelf
       url: /python_self.html
       output: web
       
@@ -60,5 +60,45 @@ entries:
       output: web
     - title: Singleton
       url: /python_pattern_singleton.html
+      output: web
+
+  - title:  Programming algorithm
+    output: web
+    folderitems:
+
+    - title: Quick Sort
+      url: /python_qucik_sort.html
+      output: web
+
+    - title: Heap Sort
+      url: /python_heap_sort.html
+      output: web
+
+    - title: Merge sort
+      url: /python_merge_sort.html
+      output: web
+
+    - title: Binary Sort
+      url: /python_binary_sort.html
+      output: web
+
+    - title: BFPRT Sort
+      url: /python_bfprt_sort.html
+      output: web
+
+    - title: Depth-First-Search
+      url: /python_dept_first_search.html
+      output: web
+
+    - title: Breadth-First-Search
+      url: /python_breadth_first_search.html
+      output: web
+
+    - title: Dijkstra
+      url: /python_dijkstra_sort.html
+      output: web
+
+    - title: Dynamic programming
+      url: /python_dynamic_programming_sort.html
       output: web
 
