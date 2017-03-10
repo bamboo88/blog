@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: News
-      url: /news
+    - title: Future
+      url: /future
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -13,15 +13,15 @@ topnav_dropdowns:
     - title: Operation
       folderitems:
         - title: System
-          external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
+          external_url: http://www.zhuziops.com
         - title: Network
-          external_url: https://talk.jekyllrb.com
+          external_url: http://www.zhuziops.com
         - title: Database
-          external_url: http://jekyllrb.com/docs/home/
+          external_url: http://www.zhuziops.com
         - title: Automatic operation
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
+          external_url: http://www.zhuziops.com
         - title: Bamboo on my blog
-          external_url: http://idratherbewriting.com/category-jekyll/
+          external_url: http://www.zhuziops.com
     - title: Develop
       folderitems:
         - title: Python
