@@ -3,7 +3,7 @@ title: Quick Sort
 keywords: sample
 summary: "Quick Sort"
 sidebar: python_sidebar
-permalink: python_quick_sort.html
+permalink: python_qucik_sort.html
 folder: python
 ---
 
