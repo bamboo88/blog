@@ -11,8 +11,8 @@ folder: python
 #### 算法查找过程(查找列表为list[first,...,last])
 1. 确定列表中间位置m
 2. 将需要查找的值T和list[m]比较，如果相等，则直接返回；如果不相等，继续二分查找。
-   如果 T > list[m] , 则下次查找区间为list[m+1,....,last]
-   如果 T < list[m] , 则下次查找区间为list[first,...,m-1]
+   * 如果 T > list[m] , 则下次查找区间为list[m+1,....,last]
+   * 如果 T < list[m] , 则下次查找区间为list[first,...,m-1]
 
 #### 代码实现如下：
 <pre><code>#-*-coding:utf-8-*-
