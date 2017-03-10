@@ -1,7 +1,7 @@
 ---
-title: python之self
+title: class self
 keywords: sample
-summary: "Python Self"
+summary: "class function self"
 sidebar: python_sidebar
 permalink: python_self.html
 folder: python

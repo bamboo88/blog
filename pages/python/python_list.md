@@ -1,5 +1,5 @@
 ---
-title: python
+title: List
 keywords: sample
 summary: "Python List"
 sidebar: python_sidebar
