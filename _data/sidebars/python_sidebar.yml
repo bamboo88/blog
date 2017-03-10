@@ -78,8 +78,8 @@ entries:
       url: /python_merge_sort.html
       output: web
 
-    - title: Binary Sort
-      url: /python_binary_sort.html
+    - title: Binary Search
+      url: /python_binary_search.html
       output: web
 
     - title: BFPRT Sort
