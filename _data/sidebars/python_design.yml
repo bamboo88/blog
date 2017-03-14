@@ -19,7 +19,7 @@ entries:
       url: /design_all.html
       output: web
    
-  - title 结构型设计模式
+  - title: 结构型设计模式
     output: web
     folderitems:
      
