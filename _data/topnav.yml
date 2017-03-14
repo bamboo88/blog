@@ -32,6 +32,6 @@ topnav_dropdowns:
           url: /p2_landing_page.html
     - title: Design Pattern
       folderitems:
-        - title: 设计模式
+        - title: DesignPattern
           url: /design_pattern.html
 
