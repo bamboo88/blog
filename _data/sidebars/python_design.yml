@@ -23,7 +23,7 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /design_pattern.html
+      url: /design_all.html
       output: web
 
   - title: 创建型模式
