@@ -1,5 +1,3 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: Design Pattern
   product: DesignPattern
@@ -23,7 +21,7 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /design_all.html
+      url: /design_pattern.html
       output: web
 
   - title: 创建型模式
@@ -31,7 +29,7 @@ entries:
     folderitems:
 
     - title: 工厂方法模式
-      url: /python_list.html
+      url: /python_all.html
       output: web
 
     - title: 抽象工厂模式
