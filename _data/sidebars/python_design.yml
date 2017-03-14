@@ -1,0 +1,51 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Design Pattern
+  product: DesignPattern
+  #version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /design_pattern.html
+      output: web
+
+  - title: 创建型模式
+    output: web
+    folderitems:
+
+    - title: 工厂方法模式
+      url: /python_list.html
+      output: web
+
+    - title: 抽象工厂模式
+      url: /python_tuple.html
+      output: web
+
+    - title: 单例模式
+      url: /python_dic.html
+      output: web
+
+    - title: 建造者模式
+      url: /python_set.html
+      output: web
+    - title: 原型模式
+      url: /python_set.html
+      output: web
