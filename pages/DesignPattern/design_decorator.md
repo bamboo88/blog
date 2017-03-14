@@ -23,7 +23,7 @@ folder: DesignPattern
 * 装饰器返回的新的函数与经由参数传入的原函数名称相同
 
 ### 实战演练
-<code><pre>#-*-coding:utf-8-*-
+<pre><code>#-*-coding:utf-8-*-
 import functools
 
 def decorator_test(function):
