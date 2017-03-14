@@ -1,5 +1,5 @@
 entries:
-- title: Design Pattern
+- title: DesignPattern
   product: DesignPattern
   folders:
 
@@ -21,31 +21,13 @@ entries:
     folderitems:
 
     - title: Overview
-<<<<<<< HEAD
       url: /design_patern.html
-=======
-      url: /design_pattern.html
->>>>>>> e03a956afea2a95e5a032cff622f5835ef335d1c
       output: web
 
   - title: 设计模式
     output: web
     folderitems:
 
-<<<<<<< HEAD
     - title: test
       url: /design_all.html
-=======
-    - title: 宸ュ巶鏂规硶妯″紡
-      url: /python_all.html
-      output: web
-
-    - title: 鎶借薄宸ュ巶妯″紡
-      url: /python_tuple.html
-      output: web
-
-    - title: 鍗曚緥妯″紡
-      url: /python_dic.html
->>>>>>> e03a956afea2a95e5a032cff622f5835ef335d1c
-      output: web
 
