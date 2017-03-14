@@ -1,10 +1,10 @@
 ---
-title: Design Patterns
+title: Design Pattern
 keywords: sample
-summary: "Design Patterns"
+summary: "Design Pattern"
 sidebar: python_design
-permalink: design_pattern.html
-folder: designpattern
+permalink: design_all.html
+folder: DesignPattern
 ---
 
 

@@ -30,7 +30,7 @@ topnav_dropdowns:
           url: /p1_landing_page.html
         - title: Tarnado
           url: /p2_landing_page.html
-    - title: Design Pattern
+    - title: DesignPattern
       folderitems:
         - title: DesignPattern
           url: /design_pattern.html
