@@ -1,7 +1,7 @@
 ---
-title: Design Pattern
+title: DesignPattern
 keywords: sample
-summary: "Design Pattern"
+summary: "DesignPattern"
 sidebar: python_design
 permalink: design_all.html
 folder: DesignPattern
