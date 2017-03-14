@@ -27,3 +27,5 @@ folder: designpattern
 一个实体应当尽量少的与其他实体之间发生相互作用，使得系统功能模块相对独立。
 6. 合成复用原则(Composite Reuse Principle)
 尽量使用合成/聚合的方式，而不是使用继承。
+
+{% include links.html %}

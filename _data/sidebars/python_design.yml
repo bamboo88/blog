@@ -23,28 +23,14 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /design_all.html
+      url: /design_patern.html
       output: web
 
-  - title: 创建型模式
+  - title: ���ģʽ
     output: web
     folderitems:
 
-    - title: 工厂方法模式
-      url: /python_list.html
+    - title: test
+      url: /design_all.html
       output: web
 
-    - title: 抽象工厂模式
-      url: /python_tuple.html
-      output: web
-
-    - title: 单例模式
-      url: /python_dic.html
-      output: web
-
-    - title: 建造者模式
-      url: /python_set.html
-      output: web
-    - title: 原型模式
-      url: /python_set.html
-      output: web
