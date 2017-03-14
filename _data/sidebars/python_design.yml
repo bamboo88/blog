@@ -17,4 +17,4 @@ entries:
 
     - title: 工厂方法模式
       url: /design_all.html
-
+      output: web
