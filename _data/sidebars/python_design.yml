@@ -3,7 +3,6 @@
 entries:
 - title: Design Pattern
   product: DesignPattern
-  #version: 1.0
   folders:
 
   - title:
@@ -27,25 +26,25 @@ entries:
       url: /design_pattern.html
       output: web
 
-  - title: ´´½¨ĞÍÄ£Ê½
+  - title: åˆ›å»ºå‹æ¨¡å¼
     output: web
     folderitems:
 
-    - title: ¹¤³§·½·¨Ä£Ê½
+    - title: å·¥å‚æ–¹æ³•æ¨¡å¼
       url: /python_list.html
       output: web
 
-    - title: ³éÏó¹¤³§Ä£Ê½
+    - title: æŠ½è±¡å·¥å‚æ¨¡å¼
       url: /python_tuple.html
       output: web
 
-    - title: µ¥ÀıÄ£Ê½
+    - title: å•ä¾‹æ¨¡å¼
       url: /python_dic.html
       output: web
 
-    - title: ½¨ÔìÕßÄ£Ê½
+    - title: å»ºé€ è€…æ¨¡å¼
       url: /python_set.html
       output: web
-    - title: Ô­ĞÍÄ£Ê½
+    - title: åŸå‹æ¨¡å¼
       url: /python_set.html
       output: web
