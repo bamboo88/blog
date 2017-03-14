@@ -8,13 +8,13 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /design_patern.html
+      url: /design_patern_introduction.html
       output: web
 
-  - title: test
+  - title: 创建型设计模式
     output: web
     folderitems:
 
-    - title: test
+    - title: 工厂方法模式
       url: /design_all.html
 
