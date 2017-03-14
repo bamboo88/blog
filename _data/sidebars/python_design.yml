@@ -3,19 +3,6 @@ entries:
   product: DesignPattern
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage
-      output: pdf
-      type: frontmatter
-
   - title: Introduction
     output: web, pdf
     folderitems:
@@ -24,7 +11,7 @@ entries:
       url: /design_patern.html
       output: web
 
-  - title: 设计模式
+  - title: test
     output: web
     folderitems:
 
