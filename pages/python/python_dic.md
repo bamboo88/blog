@@ -7,7 +7,8 @@ permalink: python_dic.html
 folder: python
 ---
 
-<pre><code>class dict(object):
+<pre><code>
+class dict(object):
     """
     dict() -> new empty dictionary
     dict(mapping) -> new dictionary initialized from a mapping object's (key, value) pairs
@@ -187,6 +188,7 @@ folder: python
         """ D.__sizeof__() -> size of D in memory, in bytes """
         pass
 
-    __hash__ = None<pre/><code/>
+    __hash__ = None
+<code/><pre/>
 
 {% include links.html %}
