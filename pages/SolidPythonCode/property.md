@@ -7,11 +7,11 @@ permalink: solid_property.html
 folder: SolidPythonCode
 ---
 
-### pythonÄÚÖÃ×°ÊÎÆ÷-property
+### pythonå†…ç½®è£…é¥°å™¨-property
 
-### ÊµÕ½³¡¾°ÑİÁ·
+### å®æˆ˜åœºæ™¯æ¼”ç»ƒ
 
-Ò». ÏÖÔÚÎÒ¹«Ë¾Ìá¹©ÁË¶ÔÍâÇóµÄBMIµÄÖµµÄ½Ó¿Ú·şÎñ£¬´úÂëÈçÏÂ£º
+ä¸€. ç°åœ¨æˆ‘å…¬å¸æä¾›äº†å¯¹å¤–æ±‚çš„BMIçš„å€¼çš„æ¥å£æœåŠ¡ï¼Œä»£ç å¦‚ä¸‹ï¼š
 <pre><code>#-*-coding:utf-8-*-
 import math
 class BMI():
@@ -28,7 +28,7 @@ class BMI():
             print "strong stature"
 
 if __name__ == '__main__':
-    "A¡¢B¹«Ë¾µ÷ÓÃÑùÀı"
+    "Aã€Bå…¬å¸è°ƒç”¨æ ·ä¾‹"
     bmi = BMI(60,1.7)
     bmi.comput_bmi()
     #bmi = BMI()
@@ -36,16 +36,16 @@ if __name__ == '__main__':
     #bmi.weight = 60
     #bmi.comput_bmi()
     print bmi.__dict__</code></pre>
-Ö´ĞĞ½á¹û£º
+æ‰§è¡Œç»“æœï¼š
 <pre><code>standard stature
 {'weight': 60, 'height': 1.7}
-bmi.weightÔÚÆäÄÚ²¿¾Í±ä³ÉÁËbmi.__dict__['weight'];
-bmi.heightÔÚÆäÄÚ²¿¾Í±ä³ÉÁËbmi.__dict__['height'];</code></pre>
+bmi.weightåœ¨å…¶å†…éƒ¨å°±å˜æˆäº†bmi.__dict__['weight'];
+bmi.heightåœ¨å…¶å†…éƒ¨å°±å˜æˆäº†bmi.__dict__['height'];</code></pre>
 
-¶ş. ÏÖÔÚA¡¢B¹«Ë¾Ä³Ğ©¿Í»§Ï²»¶¶ñÒâÊäÈëÉí¸ßºÍÌåÖØ²ÎÊı£¬ÈÅÂÒ¹«Ë¾ÒµÎñÕı³£ÔËĞĞ£¬ÏÖÔÚA¡¢B¹«Ë¾ÒªÇó¶ÔÉí¸ßºÍÌåÖØ²ÎÊı½øĞĞÏŞ¶¨¡£
-¼Æ»®¸Ä½ø´ëÊ©£º
-1. ½«heightºÍweightÊôĞÔÉèÖÃ³ÉË½ÓĞÊôĞÔ
-2. ĞÂÔöheightºÍweightµÄgetterºÍsetterµÄ·½·¨À´ÅĞ¶ÏÓÃ»§ÊäÈëµÄÌõ¼ş
+äºŒ. ç°åœ¨Aã€Bå…¬å¸æŸäº›å®¢æˆ·å–œæ¬¢æ¶æ„è¾“å…¥èº«é«˜å’Œä½“é‡å‚æ•°ï¼Œæ‰°ä¹±å…¬å¸ä¸šåŠ¡æ­£å¸¸è¿è¡Œï¼Œç°åœ¨Aã€Bå…¬å¸è¦æ±‚å¯¹èº«é«˜å’Œä½“é‡å‚æ•°è¿›è¡Œé™å®šã€‚
+è®¡åˆ’æ”¹è¿›æªæ–½ï¼š
+1. å°†heightå’Œweightå±æ€§è®¾ç½®æˆç§æœ‰å±æ€§
+2. æ–°å¢heightå’Œweightçš„getterå’Œsetterçš„æ–¹æ³•æ¥åˆ¤æ–­ç”¨æˆ·è¾“å…¥çš„æ¡ä»¶
 <pre><code>#-*-coding:utf-8-*-
 import math
 
@@ -81,19 +81,19 @@ if __name__ == '__main__':
     # bmi = BMI(1.7,60)
     # bmi.comput_bmi()
     bmi = BMI(1.7,60)
-    #PythonÖĞÊµ¼ÊÉÏÊÇÃ»ÓĞË½ÓĞ±äÁ¿µÄ¡£ÓĞÒ»Ğ©¼òµ¥µÄ±»×ñÑ­µÄ¹æ·¶¡£Python±¾Éí²»»áÓ¦ÓÃÈÎºÎÏŞÖÆ¡£
-    #bmi._height = 10 Ò²ÊÇ¿ÉÒÔ¸³Öµ³É¹¦µÄ
+    #Pythonä¸­å®é™…ä¸Šæ˜¯æ²¡æœ‰ç§æœ‰å˜é‡çš„ã€‚æœ‰ä¸€äº›ç®€å•çš„è¢«éµå¾ªçš„è§„èŒƒã€‚Pythonæœ¬èº«ä¸ä¼šåº”ç”¨ä»»ä½•é™åˆ¶ã€‚
+    #bmi._height = 10 ä¹Ÿæ˜¯å¯ä»¥èµ‹å€¼æˆåŠŸçš„
     bmi.set_height(1.7)
     bmi.set_weight(200)
     bmi.comput_bmi()
     print bmi.__dict__</code></pre>
-Ö´ĞĞ½á¹û£º
+æ‰§è¡Œç»“æœï¼š
 <pre><code>strong stature
 {'_height': 1.7, '_weight': 200}</code></pre>
-±×¶Ë·ÖÎö£º
-1. ¿Í»§Ö®Ç°Ê¹ÓÃµÄ´úÂëÏÖÔÚ±ØĞëĞŞ¸Ä£º
-    # obj.height ĞŞ¸ÄÎª obj.get_height()
-    # obj.height ĞŞ¸ÄÎª obj.set_height(value)
-ÕâÑùµÄÖØ¹¹ºÍ¸üĞÂ²»Ïòºó¼æÈİ£¬¸øÊ¹ÓÃÕß´øÀ´ºÜ´óµÄÂé·³¡£
+ å¼Šç«¯åˆ†æï¼š
+1. å®¢æˆ·ä¹‹å‰ä½¿ç”¨çš„ä»£ç ç°åœ¨å¿…é¡»ä¿®æ”¹ï¼š
+    # obj.height ä¿®æ”¹ä¸º obj.get_height()
+    # obj.height ä¿®æ”¹ä¸º obj.set_height(value)
+è¿™æ ·çš„é‡æ„å’Œæ›´æ–°ä¸å‘åå…¼å®¹ï¼Œç»™ä½¿ç”¨è€…å¸¦æ¥å¾ˆå¤§çš„éº»çƒ¦ã€‚
 
 {% include links.html %}
