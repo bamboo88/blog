@@ -15,6 +15,7 @@ folder: python
 ##### staticmethod
     @staticmethod means: when this method is called, we don't pass an instance of the class to it (as we normally do with methods). This means you can put a function inside a class but you can't access the instance of that class (this is useful when your method does not use the instance).
     staticmethod 并不是因为不想创建实例才声明的，而是声明该方法不会更改实例本身的数据。基本上和一个全局函数差不多。
+    一些跟类有关系的功能但在运行时又不需要实例和类参与的情况(比如更改环境变量或者修改其他类的属性等)
 
 ##### classmethod
     @classmethod means: when this method is called, we pass the class as the first argument instead of the instance of that class (as we normally do with methods). This means you can use the class and its properties inside that method rather than a particular instance.
