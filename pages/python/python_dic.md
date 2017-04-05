@@ -189,6 +189,6 @@ class dict(object):
         pass
 
     __hash__ = None
-<code/><pre/>
+</code></pre>
 
 {% include links.html %}
