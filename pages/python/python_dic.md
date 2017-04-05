@@ -6,8 +6,8 @@ sidebar: python_sidebar
 permalink: python_dic.html
 folder: python
 ---
-<pre><code>
-class dict(object):
+
+<pre><code>class dict(object):
     """
     dict() -> new empty dictionary
     dict(mapping) -> new dictionary initialized from a mapping object's (key, value) pairs
@@ -187,7 +187,6 @@ class dict(object):
         """ D.__sizeof__() -> size of D in memory, in bytes """
         pass
 
-    __hash__ = None
- <pre/><code/>
+    __hash__ = None<pre/><code/>
 
 {% include links.html %}
