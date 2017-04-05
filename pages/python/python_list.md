@@ -51,5 +51,8 @@ folder: python
 
 七、使用reverse()对列表进行倒序排列
 
+八、列表复制
+* copy.copy 浅拷贝(shallow copy),只拷贝父对象,不会拷贝对象的内部的子对象
+* copy.deepcopy 深拷贝,拷贝对象及其子对象 
 
 {% include links.html %}
