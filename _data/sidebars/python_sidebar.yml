@@ -61,7 +61,10 @@ entries:
     - title: Singleton
       url: /python_pattern_singleton.html
       output: web
-
+    - title: Iterator
+      url: /python_iterator.html
+      output: web
+      
   - title:  Programming algorithm
     output: web
     folderitems:
