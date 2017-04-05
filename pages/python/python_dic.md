@@ -6,50 +6,191 @@ sidebar: python_sidebar
 permalink: python_dic.html
 folder: python
 ---
+<pre><code>
+class dict(object):
+    """
+    dict() -> new empty dictionary
+    dict(mapping) -> new dictionary initialized from a mapping object's
+        (key, value) pairs
+    dict(iterable) -> new dictionary initialized as if via:
+        d = {}
+        for k, v in iterable:
+            d[k] = v
+    dict(**kwargs) -> new dictionary initialized with the name=value pairs
+        in the keyword argument list.  For example:  dict(one=1, two=2)
+    """
+    def clear(self): # real signature unknown; restored from __doc__
+        """ D.clear() -> None.  Remove all items from D. """
+        pass
 
-#### 官方文档：
+    def copy(self): # real signature unknown; restored from __doc__
+        """ D.copy() -> a shallow copy of D """
+        pass
 
-#### https://docs.python.org/2.7/tutorial/datastructures.html
-#### https://docs.python.org/3.5/tutorial/datastructures.html
+    @staticmethod # known case
+    def fromkeys(S, v=None): # real signature unknown; restored from __doc__
+        """
+        dict.fromkeys(S[,v]) -> New dict with keys from S and values equal to v.
+        v defaults to None.
+        """
+        pass
 
-### 列表非常适合利用顺序和位置定位某一元素（元素的顺序或内容经常发生改变时）
+    def get(self, k, d=None): # real signature unknown; restored from __doc__
+        """ D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None. """
+        pass
 
-### 列表常见操作：
+    def has_key(self, k): # real signature unknown; restored from __doc__
+        """ D.has_key(k) -> True if D has a key k, else False """
+        return False
 
-1. 增加(单个元素、多个元素、列表): append(),extend(),insert(),+ 加号
-2. 删除(指定位置、指定元素)
-3. 修改(排序、去重复(顺序问题)、某个元素)
-4. 查找()
+    def items(self): # real signature unknown; restored from __doc__
+        """ D.items() -> list of D's (key, value) pairs, as 2-tuples """
+        return []
 
-### 列表操作实例
-一、使用方括号[]或list()创建空列表
-* empty_list = [ ]
-* empty_list = list()
+    def iteritems(self): # real signature unknown; restored from __doc__
+        """ D.iteritems() -> an iterator over the (key, value) items of D """
+        pass
 
-二、使用list()将其他数据类型转换成列表
-* 将字符串(引号包含的内容)转换为列表
-* 将元祖转换为列表
-* 使用split()可以根据分隔符将字符串切割成由若干子串组成的列表
+    def iterkeys(self): # real signature unknown; restored from __doc__
+        """ D.iterkeys() -> an iterator over the keys of D """
+        pass
 
-三、使用join()将列表转换为字符串(join()是split()的逆过程)
-* 将列表students转换为字符串：''.join(students)
+    def itervalues(self): # real signature unknown; restored from __doc__
+        """ D.itervalues() -> an iterator over the values of D """
+        pass
 
-四、给列表添加元素：使用extend() 或 += 合并列表(a[len(a):]=L)
-* append()在原列表中追加单个元素
-* insert(index,value)在指定位置插入元素
-* extend():将列表添加到列表
-* 加号,将两个列表相加得到新的list对象
+    def keys(self): # real signature unknown; restored from __doc__
+        """ D.keys() -> list of D's keys """
+        return []
 
-五、删除元素
-* del删除指定位置的元素(不带返回值)
-* remove()删除具有指定值的第一个元素
-* 使用pop()获取并删除指定位置的元素
+    def pop(self, k, d=None): # real signature unknown; restored from __doc__
+        """
+        D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
+        If key is not found, d is returned if given, otherwise KeyError is raised
+        """
+        pass
 
-六、列表排序
-* sort():对原列表进行排序,会改变原列表的内容
-* sortd():返回排好序的列表副本，原列表内容不变
+    def popitem(self): # real signature unknown; restored from __doc__
+        """
+        D.popitem() -> (k, v), remove and return some (key, value) pair as a
+        2-tuple; but raise KeyError if D is empty.
+        """
+        pass
 
-七、使用reverse()对列表进行倒序排列
+    def setdefault(self, k, d=None): # real signature unknown; restored from __doc__
+        """ D.setdefault(k[,d]) -> D.get(k,d), also set D[k]=d if k not in D """
+        pass
 
+    def update(self, E=None, **F): # known special case of dict.update
+        """
+        D.update([E, ]**F) -> None.  Update D from dict/iterable E and F.
+        If E present and has a .keys() method, does:     for k in E: D[k] = E[k]
+        If E present and lacks .keys() method, does:     for (k, v) in E: D[k] = v
+        In either case, this is followed by: for k in F: D[k] = F[k]
+        """
+        pass
+
+    def values(self): # real signature unknown; restored from __doc__
+        """ D.values() -> list of D's values """
+        return []
+
+    def viewitems(self): # real signature unknown; restored from __doc__
+        """ D.viewitems() -> a set-like object providing a view on D's items """
+        pass
+
+    def viewkeys(self): # real signature unknown; restored from __doc__
+        """ D.viewkeys() -> a set-like object providing a view on D's keys """
+        pass
+
+    def viewvalues(self): # real signature unknown; restored from __doc__
+        """ D.viewvalues() -> an object providing a view on D's values """
+        pass
+
+    def __cmp__(self, y): # real signature unknown; restored from __doc__
+        """ x.__cmp__(y) <==> cmp(x,y) """
+        pass
+
+    def __contains__(self, k): # real signature unknown; restored from __doc__
+        """ D.__contains__(k) -> True if D has a key k, else False """
+        return False
+
+    def __delitem__(self, y): # real signature unknown; restored from __doc__
+        """ x.__delitem__(y) <==> del x[y] """
+        pass
+
+    def __eq__(self, y): # real signature unknown; restored from __doc__
+        """ x.__eq__(y) <==> x==y """
+        pass
+
+    def __getattribute__(self, name): # real signature unknown; restored from __doc__
+        """ x.__getattribute__('name') <==> x.name """
+        pass
+
+    def __getitem__(self, y): # real signature unknown; restored from __doc__
+        """ x.__getitem__(y) <==> x[y] """
+        pass
+
+    def __ge__(self, y): # real signature unknown; restored from __doc__
+        """ x.__ge__(y) <==> x>=y """
+        pass
+
+    def __gt__(self, y): # real signature unknown; restored from __doc__
+        """ x.__gt__(y) <==> x>y """
+        pass
+
+    def __init__(self, seq=None, **kwargs): # known special case of dict.__init__
+        """
+        dict() -> new empty dictionary
+        dict(mapping) -> new dictionary initialized from a mapping object's
+            (key, value) pairs
+        dict(iterable) -> new dictionary initialized as if via:
+            d = {}
+            for k, v in iterable:
+                d[k] = v
+        dict(**kwargs) -> new dictionary initialized with the name=value pairs
+            in the keyword argument list.  For example:  dict(one=1, two=2)
+        # (copied from class doc)
+        """
+        pass
+
+    def __iter__(self): # real signature unknown; restored from __doc__
+        """ x.__iter__() <==> iter(x) """
+        pass
+
+    def __len__(self): # real signature unknown; restored from __doc__
+        """ x.__len__() <==> len(x) """
+        pass
+
+    def __le__(self, y): # real signature unknown; restored from __doc__
+        """ x.__le__(y) <==> x<=y """
+        pass
+
+    def __lt__(self, y): # real signature unknown; restored from __doc__
+        """ x.__lt__(y) <==> x<y """
+        pass
+
+    @staticmethod # known case of __new__
+    def __new__(S, *more): # real signature unknown; restored from __doc__
+        """ T.__new__(S, ...) -> a new object with type S, a subtype of T """
+        pass
+
+    def __ne__(self, y): # real signature unknown; restored from __doc__
+        """ x.__ne__(y) <==> x!=y """
+        pass
+
+    def __repr__(self): # real signature unknown; restored from __doc__
+        """ x.__repr__() <==> repr(x) """
+        pass
+
+    def __setitem__(self, i, y): # real signature unknown; restored from __doc__
+        """ x.__setitem__(i, y) <==> x[i]=y """
+        pass
+
+    def __sizeof__(self): # real signature unknown; restored from __doc__
+        """ D.__sizeof__() -> size of D in memory, in bytes """
+        pass
+
+    __hash__ = None
+</pre></code>
 
 {% include links.html %}
