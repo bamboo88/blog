@@ -107,7 +107,7 @@ class dict(object):
         pass
 
     def __cmp__(self, y): # real signature unknown; restored from __doc__
-        """ x.__cmp__(y) <==> cmp(x,y) """
+        """ x.__cmp__(y) ==> cmp(x,y) """
         pass
 
     def __contains__(self, k): # real signature unknown; restored from __doc__
@@ -115,27 +115,27 @@ class dict(object):
         return False
 
     def __delitem__(self, y): # real signature unknown; restored from __doc__
-        """ x.__delitem__(y) <==> del x[y] """
+        """ x.__delitem__(y) ==> del x[y] """
         pass
 
     def __eq__(self, y): # real signature unknown; restored from __doc__
-        """ x.__eq__(y) <==> x==y """
+        """ x.__eq__(y) ==> x==y """
         pass
 
     def __getattribute__(self, name): # real signature unknown; restored from __doc__
-        """ x.__getattribute__('name') <==> x.name """
+        """ x.__getattribute__('name') ==> x.name """
         pass
 
     def __getitem__(self, y): # real signature unknown; restored from __doc__
-        """ x.__getitem__(y) <==> x[y] """
+        """ x.__getitem__(y) ==> x[y] """
         pass
 
     def __ge__(self, y): # real signature unknown; restored from __doc__
-        """ x.__ge__(y) <==> x>=y """
+        """ x.__ge__(y) ==> x>=y """
         pass
 
     def __gt__(self, y): # real signature unknown; restored from __doc__
-        """ x.__gt__(y) <==> x>y """
+        """ x.__gt__(y) ==> x>y """
         pass
 
     def __init__(self, seq=None, **kwargs): # known special case of dict.__init__
@@ -154,19 +154,19 @@ class dict(object):
         pass
 
     def __iter__(self): # real signature unknown; restored from __doc__
-        """ x.__iter__() <==> iter(x) """
+        """ x.__iter__() ==> iter(x) """
         pass
 
     def __len__(self): # real signature unknown; restored from __doc__
-        """ x.__len__() <==> len(x) """
+        """ x.__len__() ==> len(x) """
         pass
 
     def __le__(self, y): # real signature unknown; restored from __doc__
-        """ x.__le__(y) <==> x<=y """
+        """ x.__le__(y) ==> x<=y """
         pass
 
     def __lt__(self, y): # real signature unknown; restored from __doc__
-        """ x.__lt__(y) <==> x<y """
+        """ x.__lt__(y) ==> x<y """
         pass
 
     @staticmethod # known case of __new__
@@ -175,15 +175,15 @@ class dict(object):
         pass
 
     def __ne__(self, y): # real signature unknown; restored from __doc__
-        """ x.__ne__(y) <==> x!=y """
+        """ x.__ne__(y) ==> x!=y """
         pass
 
     def __repr__(self): # real signature unknown; restored from __doc__
-        """ x.__repr__() <==> repr(x) """
+        """ x.__repr__() ==> repr(x) """
         pass
 
     def __setitem__(self, i, y): # real signature unknown; restored from __doc__
-        """ x.__setitem__(i, y) <==> x[i]=y """
+        """ x.__setitem__(i, y) ==> x[i]=y """
         pass
 
     def __sizeof__(self): # real signature unknown; restored from __doc__
