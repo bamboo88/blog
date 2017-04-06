@@ -115,7 +115,8 @@ folder: python
 
     def __sizeof__(self): 
         """ T.__sizeof__() -- size of T in memory, in bytes """
-        pass <code/><pre/>
+        pass 
+<code/><pre/>
  
           
 {% include links.html %}
