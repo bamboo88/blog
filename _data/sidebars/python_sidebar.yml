@@ -34,6 +34,10 @@ entries:
     - title: List
       url: /python_list.html
       output: web
+      
+    - title: ListSource
+      url: /python_src_list.html
+      output: web 
 
     - title: Tuple
       url: /python_tuple.html
