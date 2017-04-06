@@ -8,7 +8,8 @@ folder: python
 ---
 
 
-<pre><code>class tuple(object):
+<pre><code>
+class tuple(object):
     """
     tuple() -> empty tuple
     tuple(iterable) -> tuple initialized from iterable's items
@@ -57,11 +58,9 @@ folder: python
         pass
 
     def __ge__(self, y): 
-        """ x.__ge__(y) ==> x>=y """
         pass
 
     def __gt__(self, y): 
-        """ x.__gt__(y) ==> x>y """
         pass
 
     def __hash__(self): 
@@ -116,7 +115,9 @@ folder: python
     def __sizeof__(self): 
         """ T.__sizeof__() -- size of T in memory, in bytes """
         pass 
+        
 <code/><pre/>
  
+          
           
 {% include links.html %}
