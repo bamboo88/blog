@@ -3,7 +3,7 @@ title: python
 keywords: sample
 summary: "Python Tuple"
 sidebar: python_sidebar
-permalink: python_tuple.html
+permalink: src_tuple.html
 folder: python
 ---
 
@@ -13,7 +13,6 @@ class tuple(object):
     """
     tuple() -> empty tuple
     tuple(iterable) -> tuple initialized from iterable's items
-    
     If the argument is a tuple, the return value is the same object.
     """
     def count(self, value): 
@@ -114,10 +113,8 @@ class tuple(object):
 
     def __sizeof__(self): 
         """ T.__sizeof__() -- size of T in memory, in bytes """
-        pass 
-        
-<code/><pre/>
- 
-          
+        pass      
+</code></pre>
+    
           
 {% include links.html %}
