@@ -7,7 +7,8 @@ permalink: python_tuple.html
 folder: python
 ---
 
-<pre><code>class tuple(object):
+<pre><code>
+class tuple(object):
     """
     tuple() -> empty tuple
     tuple(iterable) -> tuple initialized from iterable's items
@@ -114,8 +115,8 @@ folder: python
 
     def __sizeof__(self): 
         """ T.__sizeof__() -- size of T in memory, in bytes """
-        pass
-        
+        pass 
  <code/><pre/>
+ 
           
 {% include links.html %}
