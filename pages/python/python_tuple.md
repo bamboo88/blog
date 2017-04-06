@@ -7,7 +7,6 @@ permalink: python_tuple.html
 folder: python
 ---
 
-
 <pre><code>class tuple(object):
     """
     tuple() -> empty tuple
@@ -87,11 +86,9 @@ folder: python
         pass
 
     def __le__(self, y): 
-        """ x.__le__(y) ==> x<=y """
         pass
 
     def __lt__(self, y): 
-        """ x.__lt__(y) ==> x<y """
         pass
 
     def __mul__(self, n): 
