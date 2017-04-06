@@ -27,23 +27,23 @@ folder: python
         return 0
 
     def __add__(self, y): 
-        """ x.__add__(y) <==> x+y """
+        """ x.__add__(y) ==> x+y """
         pass
 
     def __contains__(self, y): 
-        """ x.__contains__(y) <==> y in x """
+        """ x.__contains__(y) ==> y in x """
         pass
 
     def __eq__(self, y): 
-        """ x.__eq__(y) <==> x==y """
+        """ x.__eq__(y) ==> x==y """
         pass
 
     def __getattribute__(self, name): 
-        """ x.__getattribute__('name') <==> x.name """
+        """ x.__getattribute__('name') ==> x.name """
         pass
 
     def __getitem__(self, y): 
-        """ x.__getitem__(y) <==> x[y] """
+        """ x.__getitem__(y) ==> x[y] """
         pass
 
     def __getnewargs__(self, *args, **kwargs): 
@@ -51,21 +51,21 @@ folder: python
 
     def __getslice__(self, i, j):
         """
-        x.__getslice__(i, j) <==> x[i:j]
+        x.__getslice__(i, j) ==> x[i:j]
         Use of negative indices is not supported.
         """
         pass
 
     def __ge__(self, y): 
-        """ x.__ge__(y) <==> x>=y """
+        """ x.__ge__(y) ==> x>=y """
         pass
 
     def __gt__(self, y): 
-        """ x.__gt__(y) <==> x>y """
+        """ x.__gt__(y) ==> x>y """
         pass
 
     def __hash__(self): 
-        """ x.__hash__() <==> hash(x) """
+        """ x.__hash__() ==> hash(x) """
         pass
 
     def __init__(self, seq=()): 
