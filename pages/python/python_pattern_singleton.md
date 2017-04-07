@@ -134,13 +134,16 @@ if __name__ == '__main__':
 
 
 5.共享属性(创建实例时把所有实例的__dict__指向同一个字典,这样它们具有相同的属性和方法)
-<pre><code>class Borg(object):
+<pre><code>class Singleton(object):
     _state = {}
     def __new__(cls, *args, **kw):
         ob = super(Borg, cls).__new__(cls, *args, **kw)
         ob.__dict__ = cls._state
         return ob
  
-class MyClass2(Borg):
+class MySingleton(Singleton):
     do something</code></pre>
+    
+   
+ {% include links.html %}
     
