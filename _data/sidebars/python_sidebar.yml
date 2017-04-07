@@ -66,6 +66,10 @@ entries:
     - title: Iterator
       url: /python_iterator.html
       output: web
+    
+    - title: Scope
+      url: /python_scope.html
+      output: web
       
   - title:  Programming algorithm
     output: web
