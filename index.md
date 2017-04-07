@@ -7,8 +7,12 @@ permalink: index.html
 summary: Rember Something About me
 ---
 
-## Build the Blog
+## 竹子
 
-study hard , day day up .
+* 秋风昨夜渡潇湘，
+* 触石穿林惯作狂，
+* 唯有竹枝浑不怕，
+* 挺然相斗一千场。
+*      ---郑板桥
 
 {% include links.html %}
