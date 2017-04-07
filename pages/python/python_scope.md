@@ -8,8 +8,17 @@ folder: python
 ---
 
 
-### 作用域就是变量的命名空间(变量在赋值时就决定了哪些范围的对象可以访问这个变量,这个范围就是命名空间)
-1. 块级作用域
+#### 作用域就是变量的命名空间(变量在赋值时就决定了哪些范围的对象可以访问这个变量,这个范围就是命名空间)
+#### 变量查找遵循LEGB法则:
+* Local(本地作用域)
+* Enclosing(函数内部与内嵌函数之间)
+* Global(全局作用域)
+* Build-in(内置作用域)
+
+#### if/elif/else、try/except/finally、for/while语句并不会产生新的作用域(python没有块级作用域)
+#### def、class、lambda等语句会产生作用域
+
+1. 块级作用域(python没有)
 <pre><code>if 2 == 2:
     name = "hello word"
 print name
