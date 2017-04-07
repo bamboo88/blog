@@ -8,7 +8,7 @@ folder: python
 ---
 
 
-#### 作用域就是变量的命名空间(变量在赋值时就决定了哪些范围的对象可以访问这个变量,这个范围就是命名空间)
+#### Variable scope 变量的作用域就是变量的命名空间(变量在赋值时就决定了哪些范围的对象可以访问这个变量,这个范围就是命名空间)
 #### 变量查找遵循LEGB法则:
 * Local(本地作用域)
 * Enclosing(函数内部与内嵌函数之间)
@@ -59,6 +59,15 @@ def f1():
         print(name)
     f2()
 f1()
+
+def f3():
+    print(name)
+ 
+def f4():
+    name = "eric"
+    f3()
+ 
+f3()
 </code></pre>
 
 {% include links.html %}
