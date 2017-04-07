@@ -62,9 +62,7 @@ entries:
     - title: ClassMethod
       url: /python_class_method.html
       output: web
-    - title: Singleton
-      url: /python_pattern_singleton.html
-      output: web
+
     - title: Iterator
       url: /python_iterator.html
       output: web

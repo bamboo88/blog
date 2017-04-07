@@ -2,8 +2,8 @@
 title: singleton
 keywords: sample
 summary: "Python Singleton"
-sidebar: python_sidebar
-permalink: python_pattern_singleton.html
+sidebar: python_design
+permalink: pattern_singleton.html
 folder: python
 ---
 

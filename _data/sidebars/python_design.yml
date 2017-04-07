@@ -18,6 +18,10 @@ entries:
     - title: 工厂方法模式
       url: /design_all.html
       output: web
+
+    - title: 单例模式
+      url: /pattern_singleton.html
+      output: web
    
   - title: 结构型设计模式
     output: web
