@@ -15,9 +15,9 @@ def map(function, sequence, *sequence_1):
     """
     map(function, sequence[, sequence, ...]) -> list
     Return a list of the results of applying the function to the items of the argument sequence(s).  
-    If more than one sequence is given, thefunction is called with an argument list consisting of the corresponding item of 
-    each sequence, substituting None for missing values when not all sequences have the same length.  
-    If the function is None, return a list of the items of the sequence (or a list of tuples if more than one sequence).
+    If more than one sequence is given, thefunction is called with an argument list consisting of the corresponding 
+    item of each sequence, substituting None for missing values when not all sequences have the same length.  
+    If the function is None, return a list of the items of the sequence(or a list of tuples if more than one sequence).
     """
     return []
 ```
@@ -51,8 +51,8 @@ def reduce(function, sequence, initial=None):
 ```
 实战演示:
 ```
-print reduce(lambda x,y:x+y,[1,2,3,4,5])  # 一个序列求和
-print reduce(lambda x,y:x*10+y,[1,2,3,4]) # 将[1,2,3,4] --> 1234
+print reduce(lambda x,y:x+y,[1,2,3,4,5])  #一个序列求和
+print reduce(lambda x,y:x*10+y,[1,2,3,4]) #将[1,2,3,4] --> 1234
 15
 1234
 ```
@@ -70,7 +70,7 @@ def filter(function_or_none, sequence):
 ```
 实战演练:
 ```
-print filter(lambda x:x%2==0,[2,4,6,8,11])  # 找出序列中的所有偶数
+print filter(lambda x:x%2==0,[2,4,6,8,11])  #找出序列中的所有偶数
 print filter(lambda x:x and x.strip(), ['A', '', 'B', None, 'C', '  ','A B C']) #清除一个序列中的空字符串
 [2, 4, 6, 8]
 ['A', 'B', 'C', 'A B C']
