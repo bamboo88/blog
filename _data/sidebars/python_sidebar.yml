@@ -71,6 +71,10 @@ entries:
       url: /python_scope.html
       output: web
       
+    - title: Build-in Function
+      url: /python_build-in_function.html
+      output: web
+      
   - title:  Programming algorithm
     output: web
     folderitems:
