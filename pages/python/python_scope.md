@@ -20,6 +20,7 @@ folder: python
 * Build-in(内置作用域)
 
 1. 块级作用域(python没有)
+
 ```
 if 2 == 2:
     name = "hello word"
@@ -31,13 +32,13 @@ print h
 ```
 
 输出内容：
-
 hello word
 9
 
 解释：在Java/C#中,执行上面的代码会提示name,age没有定义,但在Python中可以执行成功,这是因为在Python中是没有块级作用域的,代码块里的变量,外部可以调用,所以可运行成功;
 
 2. 局部作用域和全局作用域
+
 ```
 a = 10 # 全局作用域
 def fun():
@@ -54,6 +55,7 @@ print fun1()
 ```
 
 3. 闭包closure(如果在一个内部函数里,对在外部函数内(但不是在全局作用域)的变量进行引用,那么内部函数就被认为是闭包(closure))
+
 ```
 name = "key"
 def f1():
