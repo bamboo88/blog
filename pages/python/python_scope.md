@@ -8,11 +8,10 @@ folder: python
 ---
 
 
-Variable scope 变量的作用域就是变量的命名空间(变量在赋值时就决定了哪些范围的对象可以访问这个变量,这个范围就是命名空间)
-
-if/elif/else、try/except/finally、for/while语句并不会产生新的作用域(python没有块级作用域)
-
-def、class、lambda等语句会产生作用域
+* Variable scope 变量的作用域就是变量的命名空间
+* 变量在赋值时就决定了哪些范围的对象可以访问这个变量,这个范围就是命名空间
+* if/elif/else、try/except/finally、for/while语句并不会产生新的作用域(python没有块级作用域)
+* def、class、lambda等语句会产生作用域
 
 #### 变量查找遵循LEGB法则:
 * Local(本地作用域)
