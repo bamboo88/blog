@@ -1,7 +1,7 @@
 ---
-title: Multi THread
+title: Multi Process
 keywords: sample
-summary: "Multi Thread"
+summary: "Multi Process"
 sidebar: advanced_features_sidebar
 permalink: multi_process.html
 folder: AdvancedFeatures
