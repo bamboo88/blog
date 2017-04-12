@@ -1,10 +1,5 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: Highly Concurrent
-      url: /highly_concurrent.html
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -34,4 +29,9 @@ topnav_dropdowns:
       folderitems:
         - title: DesignPattern
           url: /design_pattern_introduction.html
+          
+    - title: HighlyConcurrent
+      folderitems:
+        - title: HighlyConcurrent
+          url: /highly_concurrent_introduction.html
 
