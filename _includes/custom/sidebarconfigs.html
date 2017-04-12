@@ -27,18 +27,14 @@ sidebar configuration for print files
 {% assign sidebar_pdf = site.data.sidebars.mydoc_sidebar.entries %}
 {% endif %}
 
-{% if site.product == "product1" %}
-{% assign sidebar_pdf = site.data.sidebars.product1_sidebar.entries %}
-{% endif %}
-
-{% if site.product == "product2" %}
-{% assign sidebar_pdf = site.data.sidebars.product2_sidebar.entries %}
-{% endif %}
-
 {% if site.product == "python" %}
 {% assign sidebar_pdf = site.data.sidebars.python_sidebar.entries %}
 {% endif %}
 
 {% if site.product == "DesignPattern" %}
 {% assign sidebar_pdf = site.data.sidebars.python_design.entries %}
+{% endif %}
+
+{% if site.product == "highlyConcurrent" %}
+{% assign sidebar_pdf = site.data.sidebars.highly_concurrent_sidebar.entries %}
 {% endif %}
