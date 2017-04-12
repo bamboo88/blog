@@ -8,30 +8,22 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /highly_concurrent_introduction.html
+      url: /advanced_features_introduction.html
       output: web
 
-  - title: Multi thread
+  - title: High concurrency
     output: web
     folderitems:
 
     - title: thread
       url: /multi_thread.html
       output: web
-      
-  - title: Multi process
-    output: web
-    folderitems:
 
     - title: process
       url: /multi_process.html
       output: web
-        
-  - title: gevent
-    output: web
-    folderitems:
 
-    - title: process
+    - title: gevent
       url: /python_gevent.html
       output: web
      

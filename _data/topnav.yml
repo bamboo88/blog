@@ -30,8 +30,8 @@ topnav_dropdowns:
         - title: DesignPattern
           url: /design_pattern_introduction.html
           
-    - title: HighlyConcurrent
+    - title: AdvancedFeatures
       folderitems:
-        - title: HighlyConcurrent
-          url: /highly_concurrent_introduction.html
+        - title: AdvancedFeatures
+          url: /advanced_features_introduction.html
 

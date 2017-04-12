@@ -4,8 +4,8 @@
 {% elsif page.sidebar == "python_design" %}
 {% assign sidebar = site.data.sidebars.python_design.entries %}
 
-{% elsif page.sidebar == "highly_concurrent_sidebar" %}
-{% assign sidebar = site.data.sidebars.highly_concurrent_sidebar.entries %}
+{% elsif page.sidebar == "advanced_features_sidebar" %}
+{% assign sidebar = site.data.sidebars.advanced_features_sidebar.entries %}
 
 {% elsif page.sidebar == "mydoc_sidebar" %}
 {% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
@@ -36,5 +36,5 @@ sidebar configuration for print files
 {% endif %}
 
 {% if site.product == "highlyConcurrent" %}
-{% assign sidebar_pdf = site.data.sidebars.highly_concurrent_sidebar.entries %}
+{% assign sidebar_pdf = site.data.sidebars.advanced_features_sidebar.entries %}
 {% endif %}
