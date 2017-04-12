@@ -1,5 +1,5 @@
 ---
-title: ∂‡œﬂ≥Ã
+title: Multi THread
 keywords: sample
 summary: "Multi Thread"
 sidebar: advanced_features_sidebar
