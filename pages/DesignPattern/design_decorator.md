@@ -24,14 +24,26 @@ folder: DesignPattern
 
 ### 实战演练
 <pre><code>#-*-coding:utf-8-*-
+#functools.wraps会将经过装饰器修饰的函数的__name__属性修改为与原函数相同的名字，否则一些需要依赖函数签名的代码就会出粗
 import functools
 
+#装饰器传入参数仅仅是函数
 def decorator_test(function):
     @functools.wraps(function)
     def wrapper(*args,**kwargs):
         args = [float(arg) for arg in args]
         return float(function(*args,**kwargs))
     return wrapper
+ 
+#装饰器需要传入其它参数
+def log(text):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrappers(*args,**kwargs):
+            do something
+            return func(*args,**kwargs)
+        return wrappers
+    return decorator  
 
 @decorator_test
 def test(a,b,c):
