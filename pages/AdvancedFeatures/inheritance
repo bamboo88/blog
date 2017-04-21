@@ -9,11 +9,10 @@ folder: AdvancedFeatures
 
 #### 单个类继承参数的变化演示
 
-
 ```
 class parent(object):
     x=1
-
+    
 class child1(parent):
     pass
 
