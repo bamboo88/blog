@@ -28,6 +28,7 @@ print parent.x,child1.x,child2.x (1,2,1)
 parent.x = 3
 
 print parent.x,child1.x,child2.x (3,2,3)
+
 ```
 
 #### 理解MRO(Method Resolution Order)方法解析顺序和多继承
