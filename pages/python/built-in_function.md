@@ -67,8 +67,10 @@ def reduce(function, sequence, initial=None):
 ```
 print reduce(lambda x,y:x+y,[1,2,3,4,5])  #一个序列求和
 print reduce(lambda x,y:x*10+y,[1,2,3,4]) #将[1,2,3,4] --> 1234
+print reduce(lambda x,y:x+y,xrange(101)) #求100以内的数相加
 15
 1234
+5050
 ```
 
 #### filter()
