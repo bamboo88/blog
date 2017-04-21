@@ -26,5 +26,12 @@ entries:
     - title: gevent
       url: /python_gevent.html
       output: web
-     
+      
+  - title: High Feature
+    output: web
+    folderitems:
+
+    - title: inheritance
+      url: /inheritance.html
+      output: web    
  
