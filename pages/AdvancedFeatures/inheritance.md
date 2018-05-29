@@ -19,7 +19,7 @@ class child1(parent):
 class child2(parent):
     pass
     
-print parent.x,child1.x,child2.x (1,1,2)
+print parent.x,child1.x,child2.x (1,1,1)
 
 child1.x = 2
 print parent.x,child1.x,child2.x (1,2,1)
